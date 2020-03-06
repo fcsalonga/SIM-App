@@ -16,6 +16,7 @@ class InventoryAdapter(private val context: Activity, private val inventories: A
 
     @SuppressLint("InflateParams", "ViewHolder")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
+
         val inflater = context.layoutInflater
         val rowView = inflater.inflate(R.layout.inventory_list, null, true)
 
